@@ -44,6 +44,13 @@ body {
     border: none;
 }
 
+.common-title {
+    /* color: rgb(255, 255, 255); */
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
 /* shared style end */
 
 
@@ -233,3 +240,73 @@ nav ul li a {
 
 /* Banner section style end here  */
 
+
+
+/* change your habits section start here   */
+.habits-container {
+    /* max-width: 65.25rem; */
+    max-width: 90%;
+    margin: 6.25rem auto;
+
+    border: 2px solid red;
+}
+
+.habits-content {
+    border: 2px solid green;
+
+    margin-bottom: 3.6rem;
+
+}
+
+.habits-content h2 {
+    /* color: rgb(255, 255, 255); */
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+    margin-bottom: 0.8rem;
+}
+
+.habits-content p {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.habits-images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habits-images-1 {
+    max-width: 14.5rem;
+    height: 17.1rem;
+
+    border: 1px solid mediumaquamarine;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habits-images-1-img img {
+    border-radius: 50%;
+}
+
+.img-tile {
+    /* color: rgb(255, 255, 255); */
+
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.img-p {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
