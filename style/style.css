@@ -10,3 +10,68 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+/* .container{
+    background-color: black;
+} */
+
+
+/* nav section style starts here  */
+.nav-container {
+    /* max-width: 66.25rem; */
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container h3 {
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+ul {
+    max-width: 29.06rem;
+    height: 2.88rem;
+
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    border: 2px solid green;
+    border-radius: 2.4rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.3rem;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+.nav-container ul li:first-child a {
+    border-radius: 2.8rem;
+    background: rgb(230, 83, 60);
+    padding: 0.5rem 1.25rem;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    /* color: white; */
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.bars {
+    display: none;
+}
