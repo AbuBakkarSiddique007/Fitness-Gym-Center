@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* Secondary font  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
 /* Fonts family  */
 body {
     font-family: "Inter", sans-serif;
@@ -16,12 +23,38 @@ body {
 } */
 
 
+/* shared style start */
+.common-p {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary {
+    border-radius: 2.6rem;
+
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    padding: 1rem 2.5rem;
+    border: none;
+}
+
+/* shared style end */
+
+
+
 /* nav section style starts here  */
 .nav-container {
     /* max-width: 66.25rem; */
     max-width: 90%;
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 6.2rem;
 
 
     /* border: 2px solid red; */
@@ -75,3 +108,128 @@ nav ul li a {
 .bars {
     display: none;
 }
+
+/* nav section style end here  */
+
+
+/* Banner section style start here  */
+.banner-section-container {
+    max-width: 90%;
+
+    /* max-width: 35rem; */
+
+    margin: 6.2rem auto;
+
+    border: 2px solid rebeccapurple;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 37.5rem;
+    height: 27.5rem;
+
+    border: 2px solid green;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner-content-title {
+    /* color: rgb(255, 255, 255); */
+
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+
+.common-p {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.btn-primary-no-bg {
+    border-radius: 2.6rem;
+
+
+    /* color: rgb(255, 255, 255); */
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    padding: 1rem 2.5rem;
+    border: none;
+}
+
+.banner-image {
+    border: 2px solid red;
+    max-width: 22rem;
+    height: 36.2rem;
+
+    position: relative;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner-card-1 {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 12.8rem;
+    height: 6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+    position: absolute;
+
+    left: -9.4rem;
+    bottom: 3.75rem;
+}
+
+.banner-card-1-text {
+    width: 6.5rem;
+    height: 3.5rem;
+}
+
+.circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.banner-card-2 {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 12rem;
+    height: 6rem;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+
+    position: absolute;
+
+    top: 160px;
+    right: -90px;
+}
+
+/* Banner section style end here  */
+

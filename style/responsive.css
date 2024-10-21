@@ -1,12 +1,29 @@
 /* Responsive for small device  */
 
 @media screen and (max-width: 576px) {
-    
-    .nav-items{
+
+    .nav-items {
         display: none;
     }
 
-    .bars{
+    .bars {
         display: block;
     }
+
+    .banner-section-container {
+        flex-direction: column;
+    }
+
+    .banner-card-1 {
+        /* left: -9.4rem; */
+        left: -5rem;
+        bottom: 3.75rem;
+    }
+
+    .banner-card-2 {
+        top: 160px;
+        /* right: -90px; */
+        right: -50px;
+    }
+
 }
