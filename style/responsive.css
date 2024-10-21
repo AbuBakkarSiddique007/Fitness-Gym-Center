@@ -26,7 +26,12 @@
         right: -50px;
     }
 
-    .habits-images-container{
+    .habits-images-container,
+    .run-container {
         flex-direction: column;
     }
+    .run-container{
+        padding-left: 0px;
+    }
+
 }
