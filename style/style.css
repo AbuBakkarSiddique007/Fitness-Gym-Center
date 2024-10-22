@@ -318,7 +318,7 @@ nav ul li a {
 /* Run an extra mile easily start here  */
 .run-container {
     max-width: 90%;
-    margin: 0 auto;
+    margin: 6.25rem auto;
 
     border: 1px solid red;
 
@@ -341,7 +341,7 @@ nav ul li a {
 }
 
 .run-content p {
-    color: rgba(255, 255, 255, 0.5); 
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 2.1rem;
@@ -360,3 +360,89 @@ nav ul li a {
     height: 100%;
     border-radius: 1.2rem;
 }
+
+/* Run an extra mile easily end here */
+
+
+/* meet our team section style starts here  */
+.meet-our-team-container {
+    max-width: 90%;
+    margin: 6.25rem auto;
+    border: 1px solid red;
+}
+
+.meet-our-team-content {
+    margin-bottom: 3.6rem;
+}
+
+.meet-our-team-content h2 {
+    /* color: rgb(255, 255, 255); */
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+.meet-our-team-content p {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.trainer-1 {
+    /* max-width: 20.4rem;
+    height: 17rem; */
+    position: relative;
+}
+
+.trainer-1 img {
+    border-radius: 1.1rem;
+}
+
+.meet-our-team-images-container {
+    /* max-width: 90%; */
+
+    border: 1px solid green;
+    margin: 0 auto;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    justify-content: center;
+    
+    padding: 1.1rem;
+}
+
+.trainer-1-text {
+    position: absolute;
+
+    left: 1rem;
+    bottom: 1.8rem;
+}
+
+.trainer-1-text h5 {
+
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.trainer-1-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.trainer-1 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* meet our team section style end here  */

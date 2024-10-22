@@ -30,8 +30,13 @@
     .run-container {
         flex-direction: column;
     }
-    .run-container{
+
+    .run-container {
         padding-left: 0px;
+    }
+
+    .meet-our-team-images-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
