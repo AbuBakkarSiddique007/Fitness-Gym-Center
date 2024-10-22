@@ -568,7 +568,7 @@ option {
 .membership {
     max-width: 100%;
     margin: 2rem auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .membership-section-container {
@@ -578,17 +578,15 @@ option {
     border-radius: 1rem;
 
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .membership-content {
-    border: 1ps solid yellow;
-
+    /* border: 1ps solid yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     margin-top: 4rem;
     margin-bottom: 2rem;
 }
@@ -742,8 +740,6 @@ button:hover {
 }
 
 /* membership section style end here  */
-
-
 
 
 
