@@ -45,4 +45,16 @@
         gap: 2.4rem;
         margin-bottom: 2.5rem;
     }
+
+    .calculator-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 2rem;
+    }
+
+    .calculator-right{
+        margin-top: 0.8rem;
+    }
 }
