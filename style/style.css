@@ -32,7 +32,7 @@ body {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
     letter-spacing: 0.5px;
 }
 
@@ -42,9 +42,11 @@ body {
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
     font-weight: 600;
-    line-height: 1.3rem;
+    /* line-height: 1.3rem; */
     padding: 1rem 2.5rem;
     border: none;
+
+    cursor: pointer;
 }
 
 .common-title {
@@ -155,11 +157,12 @@ nav ul li a {
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
     font-weight: 600;
-    line-height: 1.3rem;
+    /* line-height: 1.3rem; */
     padding: 1rem 2.5rem;
     border: 1px solid rgb(255, 255, 255);
     background-color: black;
     margin-left: 0.5rem;
+    cursor: pointer;
 }
 
 .banner-image {
@@ -550,7 +553,7 @@ option {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
     letter-spacing: 0.5px;
 }
 
@@ -560,6 +563,187 @@ option {
 }
 
 /* meet our team section style end here  */
+
+/* membership section style start here  */
+.membership {
+    max-width: 100%;
+    margin: 2rem auto;
+    border: 1px solid red;
+}
+
+.membership-section-container {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #5F7252;
+    border-radius: 1rem;
+
+
+    border: 1px solid green;
+}
+
+.membership-content {
+    border: 1ps solid yellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.membership-button {
+    border-radius: 2.5rem;
+    padding: 1rem 2.5rem;
+    background-color: #5F7252;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: 2px solid white;
+    /* margin-top: 3rem; */
+    margin-bottom: 1rem;
+}
+
+.membership-title,
+.client-review {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.card-1 {
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    /* width: 18.75rem; */
+
+    text-align: center;
+    color: #333;
+    border: 0.125rem solid white;
+}
+
+.card-1 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin: 0;
+}
+
+.price span {
+    font-size: 1.125rem;
+    color: #666;
+}
+
+.card-1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.card-1 ul li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.note {
+    color: #888;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-1 button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.membership-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 1rem;
+}
+
+
+.client-review {
+    margin: 2rem auto;
+}
+
+
+.review-card {
+    background-color: #768b75;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    border: 0.125rem solid white;
+    position: relative;
+}
+
+.stars {
+    font-size: 1.5rem;
+    color: #ffa500;
+    margin-bottom: 1rem;
+}
+
+.review-text {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.reviewer {
+    position: absolute;
+    bottom: -1.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    overflow: hidden;
+    border: 0.25rem solid #fff;
+}
+
+.reviewer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+/* membership section style end here  */
+
+
 
 
 
