@@ -10,6 +10,7 @@
 /* Fonts family  */
 body {
     font-family: "Inter", sans-serif;
+    /* overflow-x: hidden; */
 }
 
 * {
@@ -75,7 +76,7 @@ body {
     font-weight: 800;
 }
 
-ul {
+.nav-container ul {
     max-width: 29.06rem;
     height: 2.88rem;
 
@@ -84,7 +85,7 @@ ul {
     border-radius: 2.4rem;
 }
 
-nav ul {
+ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +93,7 @@ nav ul {
     padding: 0.3rem;
 }
 
-nav ul li {
+ nav ul li {
     list-style: none;
 
 }
@@ -105,7 +106,7 @@ nav ul li {
 
 
 
-nav ul li a {
+ nav ul li a {
     text-decoration: none;
     /* color: white; */
     font-size: 1.1rem;
@@ -369,6 +370,8 @@ nav ul li a {
     max-width: 90%;
     margin: 6.25rem auto;
     border: 1px solid red;
+
+
 }
 
 .meet-our-team-content {
@@ -401,7 +404,7 @@ nav ul li a {
 }
 
 .meet-our-team-images-container {
-    /* max-width: 90%; */
+    max-width: 100%;
 
     border: 1px solid green;
     margin: 0 auto;
@@ -412,9 +415,10 @@ nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
     justify-content: center;
-    
     padding: 1.1rem;
+
 }
+
 
 .trainer-1-text {
     position: absolute;
@@ -443,6 +447,75 @@ nav ul li a {
     width: 100%;
 }
 
-
-
 /* meet our team section style end here  */
+
+/* footer section style starts here  */
+.footer-container {
+    max-width: 90%;
+    border: 1px solid red;
+    margin: 5rem auto;
+}
+
+
+/* footer section style end here  */
+
+.footer-container {
+    max-width: 90%;
+    margin: 5rem auto;
+    border: 1px solid green;
+    padding: 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foorer-text-1 {
+    margin-top: 4rem;
+    margin-bottom: 4.5rem;
+}
+
+.foorer-text-1 h1 {
+    color: rgb(230, 83, 60);
+    font-size: 4.2rem;
+    font-weight: 800;
+
+    margin-bottom: 1.2rem;
+}
+
+.foorer-text-1 p {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+
+.foorer-text-2 h3 {
+    /* color: rgb(255, 255, 255); */
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.foorer-text-2 ul li {
+    list-style: none;
+}
+
+.foorer-text-2 ul li a {
+    text-decoration: none;
+
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.footer-copy-right p {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+}
