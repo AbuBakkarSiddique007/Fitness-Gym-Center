@@ -10,8 +10,10 @@
 /* Fonts family  */
 body {
     font-family: "Inter", sans-serif;
-    overflow-x: hidden;
-
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 * {
@@ -20,14 +22,14 @@ body {
     box-sizing: border-box;
 }
 
-/* .container{
-    background-color: black;
-} */
+.container {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
 
 
 /* shared style start */
 .common-p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -36,7 +38,6 @@ body {
 
 .btn-primary {
     border-radius: 2.6rem;
-
     background-color: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
@@ -47,7 +48,7 @@ body {
 }
 
 .common-title {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
@@ -56,19 +57,17 @@ body {
 /* shared style end */
 
 
-
 /* nav section style starts here  */
 .nav-container {
-    /* max-width: 66.25rem; */
     max-width: 90%;
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 6.2rem;
 
-
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+
 }
 
 .nav-container h3 {
@@ -81,8 +80,8 @@ body {
     max-width: 29.06rem;
     height: 2.88rem;
 
-    /* border: 1px solid rgba(255, 255, 255, 0.1); */
-    border: 2px solid green;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* border: 2px solid green; */
     border-radius: 2.4rem;
 }
 
@@ -96,7 +95,6 @@ nav ul {
 
 nav ul li {
     list-style: none;
-
 }
 
 .nav-container ul li:first-child a {
@@ -106,10 +104,9 @@ nav ul li {
 }
 
 
-
 nav ul li a {
     text-decoration: none;
-    /* color: white; */
+    color: white;
     font-size: 1.1rem;
     font-weight: 400;
 }
@@ -124,12 +121,8 @@ nav ul li a {
 /* Banner section style start here  */
 .banner-section-container {
     max-width: 90%;
-
-    /* max-width: 35rem; */
-
     margin: 6.2rem auto;
-
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
 
     display: flex;
     justify-content: space-between;
@@ -139,18 +132,15 @@ nav ul li a {
 .banner-content {
     max-width: 37.5rem;
     height: 27.5rem;
-
-    border: 2px solid green;
+    /* border: 2px solid green; */
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .banner-content-title {
-    /* color: rgb(255, 255, 255); */
-
+    color: rgb(255, 255, 255);
     font-size: 4.8rem;
     font-weight: 900;
 }
@@ -162,28 +152,26 @@ nav ul li a {
 
 .btn-primary-no-bg {
     border-radius: 2.6rem;
-
-
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.3rem;
     padding: 1rem 2.5rem;
-    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    margin-left: 0.5rem;
 }
 
 .banner-image {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 22rem;
     height: 36.2rem;
-
     position: relative;
 }
 
 .banner-image img {
     width: 100%;
     height: 100%;
-
 }
 
 .banner-card-1 {
@@ -191,19 +179,14 @@ nav ul li a {
     gap: 0.75rem;
     justify-content: center;
     align-items: center;
-
-
     width: 12.8rem;
     height: 6rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0.75rem;
-
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-
     position: absolute;
-
-    left: -9.4rem;
+    right: 15rem;
     bottom: 3.75rem;
 }
 
@@ -224,20 +207,15 @@ nav ul li a {
     gap: 0.75rem;
     justify-content: center;
     align-items: center;
-
-
     width: 12rem;
     height: 6rem;
-
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.1);
-
     position: absolute;
-
     top: 160px;
-    right: -90px;
+    right: -60px;
 }
 
 /* Banner section style end here  */
@@ -246,31 +224,26 @@ nav ul li a {
 
 /* change your habits section start here   */
 .habits-container {
-    /* max-width: 65.25rem; */
     max-width: 90%;
     margin: 6.25rem auto;
-
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .habits-content {
-    border: 2px solid green;
-
+    /* border: 2px solid green; */
     margin-bottom: 3.6rem;
-
 }
 
 .habits-content h2 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
-
     margin-bottom: 0.8rem;
 }
 
 .habits-content p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
     text-align: center;
@@ -285,9 +258,7 @@ nav ul li a {
 .habits-images-1 {
     max-width: 14.5rem;
     height: 17.1rem;
-
-    border: 1px solid mediumaquamarine;
-
+    /* border: 1px solid mediumaquamarine; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -299,15 +270,14 @@ nav ul li a {
 }
 
 .img-tile {
-    /* color: rgb(255, 255, 255); */
-
+    color: rgb(255, 255, 255);
     font-size: 1.1rem;
     font-weight: 600;
     text-align: center;
 }
 
 .img-p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
     text-align: center;
@@ -321,17 +291,13 @@ nav ul li a {
 .run-container {
     max-width: 90%;
     margin: 6.25rem auto;
-
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding-left: 3.4rem;
-
     border-radius: 1.2rem;
-
     background: rgb(34, 34, 34);
 }
 
@@ -353,8 +319,6 @@ nav ul li a {
     width: 21rem;
     height: 19.5rem;
     padding: 1.5rem;
-
-
 }
 
 .run-image img {
@@ -367,24 +331,31 @@ nav ul li a {
 
 
 /* BMI calculator section style start here  */
+.extract-part-2 {
+    max-width: 100%;
+    /* border: 2px solid red; */
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+}
+
+
 .bmi-calculator-container {
     max-width: 90%;
-    border: 2px solid red;
-
+    /* border: 2px solid red; */
     margin: 0 auto;
-    background-color: rgb(34, 34, 34);
+    /* background-color: rgb(34, 34, 34); */
+}
+
+.extract-part-1 {
+    max-width: 90%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
 }
 
 .bmi-calculator-content {
     margin: 0 auto;
-    /* margin-left: 12rem;
-    margin-bottom: 5.5rem; */
-
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     max-width: 70%;
-
-
-
 }
 
 .bmi-calculator-content h2 {
@@ -400,9 +371,7 @@ nav ul li a {
     font-weight: 400;
 }
 
-.calculator-container {
-    border: 2px solid green;
-}
+
 
 table,
 th,
@@ -415,10 +384,8 @@ td {
     display: flex;
     justify-content: space-around;
     align-items: start;
-}
-
-.calculator-left {
-    border: 1px solid red;
+    background-color: rgb(34, 34, 34);
+    margin-top: 5.5rem;
 }
 
 
@@ -427,14 +394,14 @@ td {
     color: rgb(255, 255, 255);
     font-size: 1.7rem;
     font-weight: 900;
-    margin-bottom: 3.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .calculator-left th {
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 500;
-
     padding: 1rem 2rem;
 }
 
@@ -442,15 +409,12 @@ td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
-
     padding: 1rem 2rem;
 }
 
 
-
-
 .calculator-right {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 1rem;
 }
 
@@ -478,8 +442,8 @@ td {
     max-width: 100%;
     padding: 0.75rem;
     margin-bottom: 0.75rem;
-
     border: none;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .input-3 {
@@ -503,6 +467,7 @@ td {
 
 form input::placeholder {
     text-align: start;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 
@@ -520,16 +485,11 @@ option {
 /* BMI calculator section style end here  */
 
 
-
-
-
 /* meet our team section style starts here  */
 .meet-our-team-container {
     max-width: 90%;
     margin: 6.25rem auto;
-    border: 1px solid red;
-
-
+    /* border: 1px solid red; */
 }
 
 .meet-our-team-content {
@@ -537,7 +497,7 @@ option {
 }
 
 .meet-our-team-content h2 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 0.8rem;
@@ -545,15 +505,13 @@ option {
 }
 
 .meet-our-team-content p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
     text-align: center;
 }
 
 .trainer-1 {
-    /* max-width: 20.4rem;
-    height: 17rem; */
     position: relative;
 }
 
@@ -563,10 +521,8 @@ option {
 
 .meet-our-team-images-container {
     max-width: 100%;
-
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0 auto;
-
     background-color: rgba(255, 255, 255, 0.1);
 
     display: grid;
@@ -574,19 +530,17 @@ option {
     gap: 1.2rem;
     justify-content: center;
     padding: 1.1rem;
-
+    border-radius: 1.1rem;
 }
 
 
 .trainer-1-text {
     position: absolute;
-
     left: 1rem;
     bottom: 1.8rem;
 }
 
 .trainer-1-text h5 {
-
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 600;
@@ -607,22 +561,22 @@ option {
 
 /* meet our team section style end here  */
 
+
+
 /* footer section style starts here  */
-.footer-container {
-    max-width: 90%;
-    border: 1px solid red;
-    margin: 5rem auto;
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-
-/* footer section style end here  */
-
 .footer-container {
     max-width: 90%;
-    margin: 5rem auto;
-    border: 1px solid green;
+    /* border: 1px solid red; */
+    /* margin: 0 auto; */
+    margin: 0 auto;
+    margin-top: 5rem;
     padding: 1rem;
 }
+
 
 .footer-content {
     display: flex;
@@ -630,55 +584,56 @@ option {
     align-items: center;
 }
 
-.foorer-text-1 {
+.footer-text-1 {
     margin-top: 4rem;
     margin-bottom: 4.5rem;
 }
 
-.foorer-text-1 h1 {
+.footer-text-1 h1 {
     color: rgb(230, 83, 60);
     font-size: 4.2rem;
     font-weight: 800;
-
     margin-bottom: 1.2rem;
 }
 
-.foorer-text-1 p {
-    /* color: rgba(255, 255, 255, 0.5); */
+.footer-text-1 p {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
 }
 
 
-.foorer-text-2 h3 {
-    /* color: rgb(255, 255, 255); */
+.footer-text-2 h3 {
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     font-weight: 700;
 }
 
-.foorer-text-2 ul li {
+.footer-text-2 ul li {
     list-style: none;
 
 }
 
-.foorer-text-2 ul li a {
+.footer-text-2 ul li a {
     text-decoration: none;
-
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1.4rem;
     font-weight: 400;
 }
 
 .footer-copy-right p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1.2rem;
     font-weight: 400;
     text-align: center;
-
     margin-top: 2.2rem;
     margin-bottom: 2.2rem;
 }
 
-.foorer-text-2 ul li {
+.footer-text-2 ul li {
     margin-top: 1rem;
+}
+
+footer hr {
+    margin-top: 4rem;
 }

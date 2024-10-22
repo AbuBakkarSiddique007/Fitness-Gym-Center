@@ -39,22 +39,32 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-
-    .footer-content {
-        flex-direction: column;
-        gap: 2.4rem;
-        margin-bottom: 2.5rem;
+    .extract-part-1 {
+        margin-left: -2.9rem;
     }
 
-    .calculator-container{
+
+    .calculator-container {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-items: start;
 
         margin-top: 2rem;
     }
 
-    .calculator-right{
+    .calculator-right {
         margin-top: 0.8rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .footer-text-1 {
+        margin-top: 4rem;
+        margin-bottom: 1em;
     }
 }
