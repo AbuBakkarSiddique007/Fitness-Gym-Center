@@ -3,17 +3,23 @@
 /* Secondary font  */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-.dancing-script {
-    font-family: 'Dancing Script', cursive;
+
+
+
+html {
+    scroll-behavior: smooth;
 }
 
-/* Fonts family  */
 body {
     font-family: "Inter", sans-serif;
     background-color: #000;
     color: #fff;
     margin: 0;
     padding: 0;
+}
+
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
 }
 
 * {
