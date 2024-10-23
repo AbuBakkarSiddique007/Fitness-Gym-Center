@@ -118,6 +118,7 @@ nav ul li a {
 .bars {
     display: none;
 }
+
 /* nav section style end here  */
 
 
@@ -332,6 +333,148 @@ nav ul li a {
 }
 
 /* Run an extra mile easily end here */
+
+
+/* Trainings and Exercises section start here */
+.training-section-container {
+    max-width: 90%;
+    margin: 3rem auto;
+}
+
+.training-image-container {
+    margin: 2rem auto;
+}
+
+.training-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.training-text-content h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.training-text-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+
+.training-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+
+.row-1 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 15.5rem;
+}
+
+.first-row-1-img,
+.first-row-2-img,
+.first-row-3-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.first-row-1-img {
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+}
+
+.first-row-2-img {
+    background: linear-gradient(to right, #0f2027, #182b31, #2c5364);
+
+}
+
+.first-row-3-img {
+    background: linear-gradient(to right, #2c53ae, #4286f4);
+
+}
+
+
+.first-row-1-img-text,
+.first-row-2-img-text,
+.first-row-3-img-text {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: absolute;
+}
+
+.first-row-1-img-text,
+.first-row-3-img-text {
+    top: 80%;
+    left: 10%;
+}
+
+.first-row-2-img-text {
+    top: 20%;
+    left: 10%;
+}
+
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.6fr;
+    grid-template-rows: 15.5rem;
+}
+
+.second-row-1-img,
+.second-row-2-img,
+.second-row-3-img {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+}
+
+.second-row-1-img {
+    background: linear-gradient(to right, #ff0099, #493240);
+
+}
+
+.second-row-2-img {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+
+}
+
+.second-row-3-img {
+    background: linear-gradient(to right, #27b05e, #185491);
+}
+
+.second-row-1-img-text,
+.second-row-2-img-text,
+.second-row-3-img-text {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.second-row-1-img-text {
+    top: 20%;
+    left: 50%;
+}
+
+.second-row-2-img-text,
+.second-row-3-img-text {
+    top: 80%;
+    left: 50%;
+}
+
+
+/* Trainings and Exercises section end here */
+
+
 
 
 /* BMI calculator section style start here  */
